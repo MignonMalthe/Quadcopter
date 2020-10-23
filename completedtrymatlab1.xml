@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="10/06/20||10:48:07" using="Simscape Multibody Link Version 7.2" from="SolidWorks 28.4.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="completedtrymatlab" uid="completedtrymatlab" version="133">
+<AssemblyFile name="completedtrymatlab.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="wing2-1" uid="wing2-1" entityUid="wing2*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.1739601515195123 0.71657710298929655 1.9250469314357079</Translation>
+</Transform>
+</Instance>
+<Instance name="wing4-1" uid="wing4-1" entityUid="wing4*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.95003984848046552 0.7164174335858543 0.80104693143570749</Translation>
+</Transform>
+</Instance>
+<Instance name="Part_no_wing-1" uid="Part_no_wing-1" grounded="true" entityUid="Part_no_wing" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.1186736013946188 0.047116038578053465 -0.09463238327811041</Translation>
+</Transform>
+<Instance name="fuld samling[779]-1" uid="fuld samling[779]-1" grounded="true" entityUid="fuld samling[779]*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.26936624708585705 0.66929476369722507 1.4576793147137836</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="wing1-1" uid="wing1-1" entityUid="wing1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.95003984848049106 0.71686651180149186 1.9250469314356444</Translation>
+</Transform>
+</Instance>
+<Instance name="wing3-1" uid="wing3-1" entityUid="wing3*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.17396015151954075 0.71650891906972836 0.8010469314356331</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Part_no_wing-1</Uid>
+<Uid>fuld samling[779]-1</Uid>
+</InstancePath>
+<Position>-0.028802112594128459 0.11180151990293652 0.51949357330868362</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>wing1-1</Uid>
+</InstancePath>
+<Position>-0.59080211259414361 0.10126388254495089 -0.042506426691287569</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Part_no_wing-1</Uid>
+<Uid>fuld samling[779]-1</Uid>
+</InstancePath>
+<Position>-0.59080211259414339 0.11180151990293641 -0.042506426691287569</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>wing2-1</Uid>
+</InstancePath>
+<Position>-0.028802112594155244 0.10126388254495089 -0.60450642669132226</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Part_no_wing-1</Uid>
+<Uid>fuld samling[779]-1</Uid>
+</InstancePath>
+<Position>-0.028802112594155216 0.11180151990293652 -0.60450642669132226</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>wing3-1</Uid>
+</InstancePath>
+<Position>0.53319788740586138 0.10126388254495089 -0.042506426691282129</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Part_no_wing-1</Uid>
+<Uid>fuld samling[779]-1</Uid>
+</InstancePath>
+<Position>0.53319788740586116 0.11180151990293641 -0.042506426691282018</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>wing4-1</Uid>
+</InstancePath>
+<Position>-0.028802112594128459 0.11176966779835096 0.51949357330868373</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="Part_no_wing" uid="Part_no_wing" version="107">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Part_no_wing.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="fuld samling[779]" uid="fuld samling[779]*:*Default" version="358">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="fuld samling[779].SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>7.2116363137719963</Mass>
+<CenterOfMass>-0.028801797943756317 0.091795692776778848 -0.042508488901246998</CenterOfMass>
+<Inertia>0.20687471555569176 0.39702252962557144 0.20683870915587463 2.8688434398921231e-07 4.8078243154859292e-08 -3.2189656699591009e-08</Inertia>
+</MassProperties>
+<GeometryFile name="fuld samling[779]_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="wing1" uid="wing1*:*Default" version="108">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="wing1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.019938201087468705</Mass>
+<CenterOfMass>-0.59080210792708332 0.11136164809701704 -0.042506431503724511</CenterOfMass>
+<Inertia>0.00019027185484599959 0.00019127119644837324 1.1827644898619881e-06 1.3157863888455833e-13 3.0638687006249921e-06 -1.5246220268787962e-13</Inertia>
+</MassProperties>
+<GeometryFile name="wing1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="wing2" uid="wing2*:*Default" version="108">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="wing2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.019938201041774739</Mass>
+<CenterOfMass>-0.028802108373568849 0.11136164809711148 -0.60450642200122962</CenterOfMass>
+<Inertia>1.1827644870274665e-06 0.00019127119554981567 0.00019027185395011352 -1.5293669366803118e-13 -3.0638687508952625e-06 -1.2434881171459584e-13</Inertia>
+</MassProperties>
+<GeometryFile name="wing2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="wing3" uid="wing3*:*Default" version="108">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="wing3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.01993818420080555</Mass>
+<CenterOfMass>0.53319788271696789 0.11136164741485301 -0.042506422424376286</CenterOfMass>
+<Inertia>0.0001902717821116121 0.00019127112303603933 1.1827637628175805e-06 -1.2445049460170964e-13 3.0638747262002162e-06 1.5293163919066021e-13</Inertia>
+</MassProperties>
+<GeometryFile name="wing3_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="wing4" uid="wing4*:*Default" version="108">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="wing4.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.019938181016409807</Mass>
+<CenterOfMass>-0.028802122358423044 0.11136164648435923 0.5194935622703547</CenterOfMass>
+<Inertia>1.1827639461290114e-06 0.00019127119503655905 0.00019027185384030526 2.5381383316366639e-13 -3.0638677136428744e-06 2.0718956584542962e-13</Inertia>
+</MassProperties>
+<GeometryFile name="wing4_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

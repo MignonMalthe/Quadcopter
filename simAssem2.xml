@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="10/02/20||14:34:46" using="Simscape Multibody Link Version 7.2" from="SolidWorks 28.4.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Assem2" uid="Assem2" version="103">
+<AssemblyFile name="Assem2.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="fuld samling[779]-1" uid="fuld samling[779]-1" grounded="true" entityUid="fuld samling[779]*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.26936624708585705 0.66929476369722507 1.4576793147137836</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="fuld samling[779]" uid="fuld samling[779]*:*Default" version="190">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="fuld samling[779].SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>7.2116363137719963</Mass>
+<CenterOfMass>-0.028801797943756317 0.091795692776778848 -0.042508488901246998</CenterOfMass>
+<Inertia>0.20687471555569176 0.39702252962557144 0.20683870915587463 2.8688434398921231e-07 4.8078243154859292e-08 -3.2189656699591009e-08</Inertia>
+</MassProperties>
+<GeometryFile name="fuld samling[779]_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
